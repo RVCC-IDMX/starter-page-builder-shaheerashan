@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/starter-page-builder-shaheerashan/issues"
   },
-  "homepage": "https://github.com/RVCC-IDMX/starter-page-builder-shaheerashan#readme"
+  "homepage": "https://github.com/RVCC-IDMX/starter-page-builder-shaheerashan#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.6"
+  }
 }
