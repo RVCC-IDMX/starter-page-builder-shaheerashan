@@ -4,7 +4,7 @@
 
 scss is the main syntax for the SASS which builds on top of existing CSS syntax. main.scss file is used only for imports and should only contain imports!
 
-## Abstarts or Utilities
+## Abstracts or Utilities
 
 This folder holds helper files, variables, config files, mixins, and functions. 
 
